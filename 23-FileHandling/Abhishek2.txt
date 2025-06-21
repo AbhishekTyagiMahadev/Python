@@ -1,0 +1,2 @@
+This is another file.
+I am writing data in this file in writing mode.

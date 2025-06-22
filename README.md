@@ -14,40 +14,39 @@ Python/
 ├── 01-First/
 ├── 02-Variables&DataTypes/
 ├── 03-Calculator/
-├── 04-Input/
+├── 04-Typecasting/
 ├── 05-String/
-├── 06-List/
-├── 07-Tuple/
+├── 06-Conditionals/
+├── 07-MatchCase/
 ├── 08-Loops/
-├── 09-Pattern/
 ├── 10-Functions/
-├── 11-ArgsKwargs/
-├── 12-Set/
-├── 13-Matrix/
+├── 11-List&Tuples/
+├── 12-fString/
+├── 13-DocString/
 ├── 14-Recursion/
-├── 15-Searching/
+├── 15-Sets/
 ├── 16-Dictionary/
 ├── 17-ExceptionHandling/
-├── 18-DateTime/
+├── 18-EnumerateFunction/
 ├── 19-VirtualEnviroment/
 ├── 20-Import&Export/
 ├── 21-OsModule/
-├── 22-RandomModule/
+├── 22-LocalGlobalVariables/
 ├── 23-FileHandling/
 ├── 24-LambdaFunctions/
-├── 25-MapFilterReduce/
-├── 26-JSON/
+├── 25-MapFilterReduse/
+├── 26-IsKeyword/
 ├── 27-SnakeWaterGun/
 ├── 28-OOPs/
 ├── 29-MargePDF/
-├── 30-EmailSender/
-├── 31-QRGenerator/
+├── 30-TimeModule/
+├── 31-WairusOperator/
 ├── 32-CommandLineUtility/
-├── 33-UnitTesting/
-├── 34-APICalls/
-├── 35-DataVisualization/
-├── 36-Database/
-└── 37-GUIProgramming/
+├── 33-ShutilModule/
+├── 34-RequestModule/
+├── 35-Generators/
+├── 36-FunctionCaching/
+└── 37-RegularExpressions/
 ```
 
 Each folder contains scripts, exercises, and sometimes markdown guides for the topic.
@@ -67,41 +66,38 @@ Here are the topics and what you’ll find in each:
 - **03-Calculator/**  
   Simple calculator implementations using user input and arithmetic operations.
 
-- **04-Input/**  
-  Taking user input, input validation, and type casting.
+- **04-Typecasting/**  
+  Type conversion between int, float, str, and bool.
 
 - **05-String/**  
   String manipulation, slicing, formatting, and common string methods.
 
-- **06-List/**  
-  List creation, indexing, slicing, methods, and list comprehensions.
+- **06-Conditionals/**  
+  If-else statements, elif, and shorthand if-else.
 
-- **07-Tuple/**  
-  Tuples, immutability, tuple operations, and packing/unpacking.
+- **07-MatchCase/**  
+  Python 3.10+ match-case (pattern matching) as a switch-case alternative.
 
 - **08-Loops/**  
   For and while loops, loop control statements (`break`, `continue`, `else` with loops).
 
-- **09-Pattern/**  
-  Printing patterns using loops (stars, numbers, etc.).
-
 - **10-Functions/**  
   Defining functions, arguments, return values, default and keyword arguments.
 
-- **11-ArgsKwargs/**  
-  Using `*args` and `**kwargs` for flexible function arguments.
+- **11-List&Tuples/**  
+  List and tuple creation, methods, comprehensions, and tuple immutability.
 
-- **12-Set/**  
-  Set operations, methods, and practical examples.
+- **12-fString/**  
+  Using f-strings for formatted output.
 
-- **13-Matrix/**  
-  Working with 2D lists (matrices), matrix operations.
+- **13-DocString/**  
+  Writing and accessing function docstrings.
 
 - **14-Recursion/**  
   Recursive functions, examples like factorial and Fibonacci.
 
-- **15-Searching/**  
-  Linear search, binary search, and related algorithms.
+- **15-Sets/**  
+  Set operations, methods, and practical examples.
 
 - **16-Dictionary/**  
   Creating and using dictionaries, dictionary methods, and practical examples.
@@ -109,8 +105,8 @@ Here are the topics and what you’ll find in each:
 - **17-ExceptionHandling/**  
   Error handling with `try`, `except`, `finally`, and custom exceptions.
 
-- **18-DateTime/**  
-  Working with dates and times using the `datetime` module.
+- **18-EnumerateFunction/**  
+  Using `enumerate` for indexed iteration.
 
 - **19-VirtualEnviroment/**  
   Guide to creating and using Python virtual environments.  
@@ -123,20 +119,20 @@ Here are the topics and what you’ll find in each:
 - **21-OsModule/**  
   Using the `os` module for file and directory operations.
 
-- **22-RandomModule/**  
-  Generating random numbers, shuffling, and random choices.
+- **22-LocalGlobalVariables/**  
+  Scope of variables, local vs global.
 
 - **23-FileHandling/**  
   Reading from and writing to files, file modes, and context managers.
 
 - **24-LambdaFunctions/**  
-  Anonymous functions, and using `map`, `filter`, and `reduce`.
+  Anonymous functions, and using `lambda` for concise function definitions.
 
-- **25-MapFilterReduce/**  
+- **25-MapFilterReduse/**  
   Functional programming with `map`, `filter`, and `reduce`.
 
-- **26-JSON/**  
-  Working with JSON data: parsing, reading, and writing.
+- **26-IsKeyword/**  
+  Using the `is` keyword for identity comparison.
 
 - **27-SnakeWaterGun/**  
   Implementation of the Snake-Water-Gun game (Python version of Rock-Paper-Scissors).
@@ -148,30 +144,30 @@ Here are the topics and what you’ll find in each:
   PDF merging utility using PyPDF2.  
   See: [PyPdf.py](Python/29-MargePDF/PyPdf.py)
 
-- **30-EmailSender/**  
-  Sending emails using Python's `smtplib` and email modules.
+- **30-TimeModule/**  
+  Working with time, delays, and formatting time.
 
-- **31-QRGenerator/**  
-  Generating QR codes using libraries like `qrcode`.
+- **31-WairusOperator/**  
+  Assignment expressions (walrus operator `:=`).
 
 - **32-CommandLineUtility/**  
   Command-line file downloader using `requests`.  
   See: [CommandLineUtility.py](Python/32-CommandLineUtility/CommandLineUtility.py)
 
-- **33-UnitTesting/**  
-  Writing and running unit tests using Python's `unittest` and `pytest` frameworks.
+- **33-ShutilModule/**  
+  File operations like copy, move, and remove using `shutil`.
 
-- **34-APICalls/**  
-  Making HTTP requests, working with APIs using `requests`, parsing JSON responses.
+- **34-RequestModule/**  
+  Making HTTP requests, working with APIs using `requests`.
 
-- **35-DataVisualization/**  
-  Creating charts and graphs with libraries like `matplotlib` and `seaborn`.
+- **35-Generators/**  
+  Creating and using generator functions.
 
-- **36-Database/**  
-  Connecting to databases (e.g., SQLite), performing CRUD operations, using `sqlite3` or `SQLAlchemy`.
+- **36-FunctionCaching/**  
+  Function result caching with `functools.lru_cache`.
 
-- **37-GUIProgramming/**  
-  Building graphical user interfaces with `tkinter` or other GUI frameworks.
+- **37-RegularExpressions/**  
+  Pattern matching and searching with the `re` module.
 
 ---
 
@@ -194,10 +190,10 @@ Here are the topics and what you’ll find in each:
   Download from [python.org](https://www.python.org/downloads/)
 
 - **External Modules**  
-  Some scripts require additional packages (e.g., `requests`, `PyPDF2`, `matplotlib`, `seaborn`, `pytest`, `qrcode`, `sqlite3`).  
+  Some scripts require additional packages (e.g., `requests`, `PyPDF2`).  
   Install them using:
   ```sh
-  pip install requests PyPDF2 matplotlib seaborn pytest qrcode
+  pip install requests PyPDF2
   ```
 
 ---
@@ -225,4 +221,4 @@ This workspace is for personal learning and educational use only.
 
 ---
 
-Happy Coding! 🚀
+Happy Codding.
